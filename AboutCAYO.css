@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ensures the image covers the screen without distortion */
+    position: relative; /* Change from absolute to relative */
+    display: block; /* Ensures it doesn’t overlap */
+    z-index: 2; /* Keeps the image above the video */
+
+}
+
+#video-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Video Fullscreen */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}
+
+/* Center the "NOTIFY ME" Button Over the Video */
+#button-container {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Ensures it is above the video */
+}
+
+/* Style the Button */
+a {
+    background-color: #ffffff;
+    border: none;
+    color: #69443c;
+    padding: 40px 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Philosopher;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.4s;
+
+}
+
+/* Button Hover Effect */
+a:hover {
+    background-color: #DFD2C7;
+    color: white;
+}
+
+#Founder {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}

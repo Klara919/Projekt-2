@@ -1,0 +1,47 @@
+body{
+    background-color:  #DFD2C7;
+}
+
+h1{
+    font-family: Philosopher;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    color: #69443c;
+}
+
+div {
+    text-align: center; /* Centers the form content */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stacks the input and button vertically */
+    align-items: center; /* Horizontally centers the form elements */
+}
+
+input[type="email"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0px;
+    border: 2px solid #69443c; /* Optional: Gives input a border */
+    margin-bottom: 20px; /* Adds space between input and button */
+    width: 300px; /* Width of the input field */
+}
+
+button {
+    background-color: #69443c;
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Philosopher;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.4s;
+}
+
+button:hover {
+    background-color: #5b3932; /* Optional: Darker shade on hover */
+}
