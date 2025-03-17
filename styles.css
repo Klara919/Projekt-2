@@ -125,3 +125,16 @@ footer form {
 footer form input {
     margin-bottom: 10px;
 }
+
+footer div button {
+    background-color: #DFD2C7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Philosopher;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.4s;
+}
