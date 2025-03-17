@@ -8,7 +8,7 @@ body{
 #Background{
     width:100%;
     position:relative;
-    height: 700px;
+    height: 900px;
     overflow:hidden;
 
 }
@@ -58,22 +58,70 @@ position:absolute;
 }
 
 #Background nav a{
-    background-color: #ffffff;
+ background-color: #ffffff;
   border: none;
   color: black;
-  padding: 5px 32px;
+  padding: 5px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display:inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  height: 30px;
+  height: 20px;
   border-radius: 12px;
+
 }
 
 #Background a:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.24);
   }
+
+
+
+
+  footer{
+    display: flex;
+    background-color: #ffffff;
+    color: rgb(202, 166, 136);
+    justify-content: space-evenly;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+
+}
+
+footer a{
+    color: rgb(202, 166, 136);
+    text-decoration: none;
+    font-family: philosopher;
+}
+
+
+img{
+    width: 15%;
+    height: 20%;
+    object-fit: cover;
+}
+footer div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer form input {
+    margin-bottom: 10px;
+}
