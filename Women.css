@@ -1,0 +1,113 @@
+body{
+    background-color:  white;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    color: #69443c;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+    padding: 1px;
+    position: sticky;
+    top: 0;
+    width: 100%; /* Full width of the page */
+    text-align: center;
+    z-index: 1000; /* Ensures the header stays above other elements */
+    height: 125px; /* Sets the height of the header */
+  
+}
+
+header h1 {
+    font-family: Philosopher;
+    font-size: 30px;
+    margin: 0; /* Removes unnecessary margin */
+    color: #69443c;
+}
+
+/* Style for the logo link */
+#logo a {
+    color: #69443c; /* Sets color for the link */
+    text-decoration: none; /* Removes underline from the link */
+}
+
+#logo a:hover {
+    background-color: transparent; /* No background change */
+    color: #69443c; /* No color change */
+}
+.Why{
+    background: #dfd2c7;
+    width: 100%;
+    height: 700px;
+}
+
+.Why h1{
+    font-family: Philosopher;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    color: #69443c;
+    margin-bottom: 1%;
+}
+
+.Why p{
+    font-family: Philosopher;
+    font-size: 16px;
+    text-align: left;
+    color: #69443c;
+    margin-left: 8%;
+    margin-top: 0%;
+    
+}
+
+.Why h2{
+    font-family: Philosopher;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+    color: #69443c;
+    margin-left: 8%;
+    margin-top: 40px;
+}
+
+#Text{
+    font-family: 'Philosopher', sans-serif; /* Use Philosopher font */
+    font-style: italic;  /* Makes the text appear cursive */
+    font-size: 17px;
+    text-align: left;
+    margin-top: 0px;
+    color: #69443c;
+    margin-left: 8%;
+
+}
+
+#question2{
+    font-family: 'Philosopher', sans-serif; /* Use Philosopher font */
+    font-style: italic;  /* Makes the text appear cursive */
+    font-size: 17px;
+    text-align: left;
+    margin-top: -140px;
+    color: #69443c;
+    margin-left: 8%;
+}
+
+.Why h4{
+    font-family: Philosopher;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+    color: #69443c;
+    margin-left: 8%;
+    text-decoration: underline;
+}
+
+.Why img{
+    display:block; /* Removes any spacing around images */
+    max-width: 60%; /* Sets the maximum width to 80% of the viewport width */
+    max-height: 60vh; /* Limits the height to 80% of the viewport height */
+    object-fit: contain; /* Ensures the image maintains aspect ratio */
+    margin-top: -23%;
+    margin-left: 60%;
+    border-radius: 50px;
+}
