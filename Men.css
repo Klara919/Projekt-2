@@ -84,7 +84,7 @@ img {
 
 #button-container {
     position: absolute;
-    top: 275%;
+    top: 278%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3; /* Ensures it's above the video */
