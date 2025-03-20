@@ -30,12 +30,14 @@ header h1 {
 #logo a {
     color: #69443c; /* Sets color for the link */
     text-decoration: none; /* Removes underline from the link */
+    font-size: 30px;
 }
 
 #logo a:hover {
     background-color: transparent; /* No background change */
     color: #69443c; /* No color change */
 }
+
 .Why{
     background: #dfd2c7;
     width: 100%;

@@ -1,113 +1,107 @@
-/* General reset for body */
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #edf0f2;
-    overflow-x: hidden; /* Removes horizontal scrollbar */
+body{
+    background-color:  white;
+    margin: 0%;
 }
 
-/* Header Styles */
 header {
     display: flex;
     background-color: white;
     color: #69443c;
-    justify-content: center;
-    align-items: center;
-    padding: 1%;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+    padding: 1px;
     position: sticky;
     top: 0;
-    width: 100%;
+    width: 100%; /* Full width of the page */
     text-align: center;
-    z-index: 1000;
-    height: 125px;
+    z-index: 1000; /* Ensures the header stays above other elements */
+    height: 125px; /* Sets the height of the header */
+  
 }
 
 header h1 {
     font-family: Philosopher;
     font-size: 30px;
-    margin: 0;
+    margin: 0; /* Removes unnecessary margin */
     color: #69443c;
 }
 
+/* Style for the logo link */
 #logo a {
-    color: #69443c;
-    text-decoration: none;
+    color: #69443c; /* Sets color for the link */
+    text-decoration: none; /* Removes underline from the link */
+    font-size: 30px;
 }
 
 #logo a:hover {
-    background-color: transparent;
-    color: #69443c;
+    background-color: transparent; /* No background change */
+    color: #69443c; /* No color change */
 }
 
 
-
-/* Video section styling */
-#video-section {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+#WhyMen{
+    background: #edf0f2;
+    width: 100%;
+    height: 800px;
 }
 
-
-video {
-    width: auto; /* Auto width to maintain aspect ratio */
-    height: auto; /* Auto height to maintain aspect ratio */
-    max-width: 80%; /* Sets the maximum width to 80% of the viewport */
-    max-height: 80vh; /* Sets the maximum height to 80% of the viewport */
-    object-fit: contain; /* Ensures the video maintains aspect ratio */
-    display: block;
-    margin: 0 auto; /* Centers the video */
-}
-
-
-img {
-    display: block; /* Removes any spacing around images */
-    margin: 0 auto; /* Centers the image horizontally */
-    max-width: 80%; /* Sets the maximum width to 80% of the viewport width */
-    max-height: 80vh; /* Limits the height to 80% of the viewport height */
-    object-fit: contain; /* Ensures the image maintains aspect ratio */
-}
-
-
-
-
-#Men3 {
-    display: block;
-    margin: 0 auto;
-    max-width: 80%; /* Sets the maximum width to 80% of the viewport */
-    max-height: 80vh; /* Limits the height to 80% of the viewport height */
-    object-fit: contain; /* Ensures the image maintains aspect ratio */
-}
-
-
-#button-container {
-    position: absolute;
-    top: 278%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3; /* Ensures it's above the video */
-    padding-bottom: 10%;
-}
-
-/* Button styles */
-a {
-    background-color: #ffffff;
-    border: none;
-    color: #69443c;
-    padding: 20px 100px;
+#WhyMen h1{
+    font-family: Philosopher;
+    font-size: 50px;
     text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Philosopher, sans-serif;
-    border-radius: 50px;
-    display: inline-block;
-    transition: all 0.4s;
+    margin-top: 0px;
+    color: #69443c;
+    margin-bottom: 1%;
+    padding-top: 3%;
 }
 
-/* Button hover effect */
-a:hover {
-    background-color: #69443c;
-    color: white;
+
+#WhyMen h2{
+    font-family: Philosopher;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    color: #69443c;
+    margin-left: 0%;
+    margin-top: 5px;
 }
+
+
+#WhyMen h3{
+    font-family: Philosopher;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+    color: #69443c;
+    margin-left: 18%;
+    margin-top: 60px;
+
+}
+
+
+#WhyMen p{
+    font-family: Philosopher;
+    font-size: 16px;
+    text-align: left;
+    color: #69443c;
+    margin-left: 18%;
+    margin-top: 0%;
+    line-height: 150%;
+    
+}
+
+#WhyMen video{
+    display:block; /* Removes any spacing around images */
+    max-width: 35%; /* Sets the maximum width to 80% of the viewport width */
+    max-height: 35vh; /* Limits the height to 80% of the viewport height */
+    object-fit: contain; /* Ensures the image maintains aspect ratio */
+    margin-top: -22%;
+    margin-left: 50%;
+    border-radius: 50px;
+    background-color: #69443c;
+}
+
+
+
+
+
